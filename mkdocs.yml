@@ -1,5 +1,7 @@
 site_name: PREMIS Editorial Committee
 site_url: https://PREMIS-EC.github.io
+repo_url: https://github.com/PREMIS-EC/editorial-committee
+
 theme:
   name: material
   logo: assets/logo_sq.png
