@@ -1,0 +1,30 @@
+site_name: PREMIS Editorial Committee
+site_url: https://PREMIS-EC.github.io
+theme:
+  name: material
+  logo: assets/logo_sq.png
+  favicon: assets/favicon.ico
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    # - navigation.tabs
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes 
+    
+extra_css:
+  - stylesheets/extra.css
+
