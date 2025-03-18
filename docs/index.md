@@ -7,7 +7,7 @@ Welcome to the PREMIS Editorial Committee site!
 [Meeting Minutes](./MeetingMinutes)   
 Minutes of PREMIS Editorial Committee meetings dating back to 2006.
 
-[Data Dictionary notes](./DataDictionaryNotes)  
+[Data Dictionary notes](./DataDictionary)  
 Documentation related to the development of each version of the PREMIS data dictionary
 
 [Project documents](./ProjectDocuments)  
