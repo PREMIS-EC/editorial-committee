@@ -1,0 +1,9 @@
+
+# Supporting Documentation
+
+  * PREMIS Resources
+  * KEY PREMIS DOCUMENTS (Understanding PREMIS)
+  * PREMIS RELATED PAPERS AND ARTICLES
+  * PREMIS RELATED PRESENTATIONS
+  * PREMIS ANNOUNCEMENTS
+  * Early PREMIS Tutorials (2006-2011)

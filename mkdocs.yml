@@ -6,8 +6,10 @@ theme:
   name: material
   logo: assets/logo_sq.png
   favicon: assets/favicon.ico
+  features:
+    # - navigation.path
+    - navigation.indexes   
   palette:
-
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -21,12 +23,22 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  features:
-    # - navigation.tabs
-    - navigation.expand
-    - navigation.path
-    - navigation.indexes 
+
+
     
 extra_css:
   - stylesheets/extra.css
 
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - index.md
+  - Data Dictionary: DataDictionary
+  - Maintenance : Maintenance
+  - Implementations : Implementations
+  - Tools : Tools
+  - Supporting Documentation : SupportingDocumentation 
