@@ -1,0 +1,935 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://PREMIS-EC.github.io/DataDictionary/v2/premis-dd-Hierarchical-Listing-2-2/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.6.9">
+    
+    
+      
+        <title>PREMIS Data Dictionary Version 2.2: Hierarchical Listing of Semantic Units - PREMIS Editorial Committee</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#premis-data-dictionary-version-22-hierarchical-listing-of-semantic-units" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="PREMIS Editorial Committee" class="md-header__button md-logo" aria-label="PREMIS Editorial Committee" data-md-component="logo">
+      
+  <img src="../../../assets/logo_sq.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PREMIS Editorial Committee
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              PREMIS Data Dictionary Version 2.2: Hierarchical Listing of Semantic Units
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/PREMIS-EC/editorial-committee" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="PREMIS Editorial Committee" class="md-nav__button md-logo" aria-label="PREMIS Editorial Committee" data-md-component="logo">
+      
+  <img src="../../../assets/logo_sq.png" alt="logo">
+
+    </a>
+    PREMIS Editorial Committee
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/PREMIS-EC/editorial-committee" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Dictionary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Maintenance" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Maintenance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Implementations" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Implementations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Tools" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../SupportingDocumentation" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supporting Documentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Object
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Event
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-agent" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Agent
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-rights" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Rights
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="premis-data-dictionary-version-22-hierarchical-listing-of-semantic-units">PREMIS Data Dictionary Version 2.2: Hierarchical Listing of Semantic Units</h1>
+<p>The PREMIS Data Dictionary and its supporting documentation is a comprehensive,
+          practical resource for implementing preservation metadata in digital
+          archiving systems. The Data Dictionary is built on a data model that
+          defines five entities: Intellectual Entities, Objects, Events, Rights,
+          and Agents. Each semantic unit defined in the Data Dictionary is a
+          property of one of the entities in the data model.</p>
+
+<p>This is a hierarchical listing of the semantic units included in the
+          Data Dictionary. The information in parentheses following each semantic
+          unit indicates whether the element is Mandatory (M) or Optional (O),
+          followed by whether it is Repeatable (R) or Not repeatable (NR). Some
+          semantic units in the Object section are further divided by the types
+          of representation, file, and bitstream. Where not qualified, the designations
+          apply to all three types. Where qualified, only the types listed are
+          applicable.</p>
+
+<h2 id="1-object">1. Object</h2>
+<ul>
+          <li>1.1   objectIdentifier (M, R)
+            <ul>
+              <li>1.1.1 objectIdentifierType (M, NR)</li>
+              <li>1.1.2 objectIdentifierValue (M, NR)</li>
+            </ul>
+
+          </li>
+          <li>1.2   objectCategory (M, NR)</li>
+          <li>1.3   preservationLevel (O, R) [representation, file]
+            <ul>
+
+              <li>1.3.1 preservationLevelValue (M, NR) [representation, file]</li>
+              <li>1.3.2 preservationLevelRole (O, NR) [representation, file]</li>
+
+              <li>1.3.3 preservationLevelRationale (O, R) [representation, file]</li>
+              <li>1.3.4 preservationLevelDateAssigned (O, NR) [representation, file]</li>
+            </ul>
+
+          </li>
+          <li>1.4   significantProperties (O, R)
+            <ul>
+              <li>1.4.1 significantPropertiesType (O, NR)</li>
+              <li>1.4.2 significantPropertiesValue (O, NR)</li>
+              <li>1.4.3 significantPropertiesExtension (O, R)</li>
+            </ul>
+
+          </li>
+          <li>1.5   objectCharacteristics (M, R) [file, bitstream]
+            <ul>
+              <li>1.5.1 compositionLevel (M, NR) [file, bitstream]</li>
+              <li>1.5.2 fixity (O, R) [file, bitstream]
+                <ul>
+                  <li>1.5.2.1   messageDigestAlgorithm (M, NR) [file, bitstream]</li>
+                  <li>1.5.2.2   messageDigest (M, NR) [file, bitstream]</li>
+                  <li>1.5.2.3   messageDigestOriginator (O, NR) [file, bitstream]</li>
+                </ul>
+
+              </li>
+              <li>1.5.3 size (O, NR) [file, bitstream]</li>
+              <li>1.5.4 format (M, R) [file, bitstream]
+                <ul>
+                  <li>1.5.4.1   formatDesignation (O, NR) [file, bitstream]
+                    <ul>
+                      <li>1.5.4.1.1 formatName (M, NR) [file, bitstream]</li>
+                      <li>1.5.4.1.2 formatVersion (O, NR) [file, bitstream]</li>
+                    </ul>
+
+                  </li>
+                  <li>1.5.4.2   formatRegistry (O, NR) [file, bitstream]
+                    <ul>
+                      <li>1.5.4.2.1 formatRegistryName (M, NR) [file, bitstream]</li>
+                      <li>1.5.4.2.2 formatRegistryKey (M, NR) [file, bitstream]</li>
+                      <li>1.5.4.2.3 formatRegistryRole (O, NR) [file, bitstream]</li>
+                    </ul>
+
+                  </li>
+                  <li>v1.5.4.3 formatNote (O, R) [file, bitstream]</li>
+                </ul>
+              </li>
+              <li>1.5.5 creatingApplication (O, NR) [file, bitstream]
+                <ul>
+                  <li>1.5.5.1   creatingApplicationName (O, NR) [file, bitstream]</li>
+                  <li>1.5.5.2   creatingApplicationVersion (O, NR) [file, bitstream]</li>
+
+                  <li>1.5.5.3   dateCreatedByApplication (O, NR) [file, bitstream]</li>
+                  <li>1.5.5.4   creatingApplicationExtension (O, R) [file, bitstream]</li>
+                </ul>
+
+              </li>
+              <li>1.5.6 inhibitors (O, R) [file, bitstream]
+                <ul>
+                  <li>1.5.6.1   inhibitorType (M, NR) [file, bitstream]</li>
+                  <li>1.5.6.2   inhibitorTarget (O, R) [file, bitstream]</li>
+                  <li>1.5.6.3   inhibitorKey (O, NR) [file, bitstream]</li>
+                </ul>
+
+              </li>
+              <li>1.5.7 objectCharacteristicsExtension (O, R) [file, bitstream]</li>
+            </ul>
+          </li>
+          <li>1.6   originalName (O, NR) [representation, file]</li>
+          <li>1.7   storage (O, R) [file, bitstream]
+            <ul>
+              <li>1.7.1 contentLocation (O, NR) [file, bitstream]
+                <ul>
+                  <li>1.7.1.1   contentLocationType (M, NR) [file, bitstream]</li>
+                  <li>1.7.1.2   contentLocationValue (M, NR) [file, bitstream]</li>
+                </ul>
+
+              </li>
+              <li>1.7.2 storageMedium (O, NR) [file, bitstream]</li>
+            </ul>
+
+          </li>
+          <li>1.8   environment (O, R)
+            <ul>
+              <li>1.8.1 environmentCharacteristic (O, NR)</li>
+
+              <li>1.8.2 environmentPurpose (O, R)</li>
+
+              <li>1.8.3 environmentNote (O, R)</li>
+              <li>1.8.4 dependency (O, R)
+                <ul>
+                  <li>1.8.4.1   dependencyName (O, R)</li>
+                  <li>1.8.4.2   dependencyIdentifier (O, R)
+                    <ul>
+                      <li>1.8.4.2.1 dependencyIdentifierType (M, NR)</li>
+                      <li>1.8.4.2.2 dependencyIdentifierValue (M, NR)</li>
+                    </ul>
+
+                  </li>
+                </ul>
+              </li>
+              <li>1.8.5 software (O, R)
+                <ul>
+                  <li>1.8.5.1   swName (M, NR)</li>
+                  <li>1.8.5.2   swVersion (O, NR)</li>
+
+                  <li>1.8.5.3   swType (M, NR)</li>
+                  <li>1.8.5.4   swOtherInformation (O, R)</li>
+                  <li>1.8.5.5   swDependency (O, R)</li>
+                </ul>
+
+              </li>
+              <li>1.8.6 hardware (O, R)
+                <ul>
+                  <li>1.8.6.1   hwName (M, NR)</li>
+
+                  <li>1.8.6.2   hwType (M, NR)</li>
+                  <li>1.8.6.3   hwOtherInformation (O, R)</li>
+                </ul>
+              </li>
+              <li>1.8.7 environmentExtension (O, R)</li>
+            </ul>
+
+          </li>
+          <li>1.9   signatureInformation (O, R) [file, bitstream]
+            <ul>
+              <li>1.9.1 signature (O, R)
+                <ul>
+                  <li>1.9.1.1   signatureEncoding (M, NR) [file, bitstream]</li>
+                  <li>1.9.1.2   signer (O, NR) [file, bitstream]</li>
+                  <li>1.9.1.3   signatureMethod (M, NR) [file, bitstream]</li>
+                  <li>1.9.1.4   signatureValue (M, NR) [file, bitstream]</li>
+
+                  <li>1.9.1.5   signatureValidationRules (M, NR) [file, bitstream]</li>
+                  <li>1.9.1.6   signatureProperties (O, R) [file, bitstream]</li>
+                  <li>1.9.1.7   keyInformation (O, NR) [file, bitstream]</li>
+                </ul>
+
+              </li>
+              <li>1.9.2 signatureInformationExtension (O, R) [file, bitstream]</li>
+            </ul>
+
+          </li>
+          <li>1.10 relationship (O, R)
+            <ul>
+              <li>1.10.1 relationshipType (M, NR)</li>
+              <li>1.10.2 relationshipSubType (M, NR)</li>
+              <li>1.10.3 relatedObjectIdentification (M, R)
+                <ul>
+                  <li>1.10.3.1 relatedObjectIdentifierType (M, NR)</li>
+
+                  <li>1.10.3.2 relatedObjectIdentifierValue (M, NR)</li>
+                  <li>1.10.3.3 relatedObjectSequence (O, NR)</li>
+                </ul>
+
+              </li>
+              <li>1.10.4 relatedEventIdentification (O, R)
+                <ul>
+                  <li>1.10.4.1 relatedEventIdentifierType (M, NR)</li>
+                  <li>1.10.4.2 relatedEventIdentifierValue (M, NR)</li>
+                  <li>1.10.4.3 relatedEventSequence (O, NR)</li>
+                </ul>
+
+              </li>
+            </ul>
+
+          </li>
+          <li>1.11 linkingEventIdentifier (O, R)
+            <ul>
+              <li>1.11.1 linkingEventIdentifierType (M, NR)</li>
+
+              <li>1.11.2 linkingEventIdentifierValue (M, NR)</li>
+            </ul>
+
+          </li>
+          <li>1.12 linkingIntellectualEntityIdentifier (O, R)
+            <ul>
+              <li>1.12.1 linkingIntellectualEntityIdentifierType (M, NR)</li>
+              <li>1.12.2 linkingIntellectualEntityIdentifierValue (M, NR)</li>
+
+            </ul>
+
+          </li>
+          <li>1.13 linkingRightsStatementIdentifier (O, R)
+            <ul>
+              <li>1.13.1 linkingRightsStatementIdentifierType (M, NR)</li>
+              <li>1.13.2 linkingRightsStatementIdentifierValue (M, NR)</li>
+            </ul>
+          </li>
+
+        </ul>
+
+<h2 id="2-event">2. Event</h2>
+<ul>
+          <li>2.1   eventIdentifier (M, NR)
+            <ul>
+              <li>2.1.1 eventIdentifierType (M, NR)</li>
+              <li>2.1.2 eventIdentifierValue (M, NR)</li>
+
+            </ul>
+          </li>
+
+          <li>2.2   eventType (M, NR)</li>
+          <li>2.3   eventDateTime (M, NR)</li>
+          <li>2.4   eventDetail (O, NR)</li>
+          <li>2.5   eventOutcomeInformation (O, R)
+            <ul>
+              <li>2.5.1 eventOutcome (O, NR)</li>
+              <li>2.5.2 eventOutcomeDetail (O, R)
+                <ul>
+                  <li>2.5.2.1   eventOutcomeDetailNote (O, NR)</li>
+                  <li>2.5.2.2   eventOutcomeDetailExtension (O, R)</li>
+                </ul>
+
+              </li>
+            </ul>
+
+          </li>
+          <li>2.6   linkingAgentIdentifier (O, R)
+            <ul>
+              <li>2.6.1 linkingAgentIdentifierType (M, NR)</li>
+              <li>2.6.2 linkingAgentIdentifierValue (M, NR)</li>
+              <li>2.6.3 linkingAgentRole (O, R)</li>
+            </ul>
+          </li>
+
+          <li>2.7   linkingObjectIdentifier (O, R)
+            <ul>
+              <li>2.7.1 linkingObjectIdentifierType (M, NR)</li>
+              <li>2.7.2 linkingObjectIdentifierValue (M, NR)</li>
+              <li>2.7.3 linkingObjectRole (O, R)</li>
+            </ul>
+          </li>
+        </ul>
+
+<h2 id="3-agent">3. Agent</h2>
+<ul>
+          <li>3.1   agentIdentifier (R, M)
+            <ul>
+              <li>3.1.1 agentIdentifierType (M, NR)</li>
+              <li>3.1.2 agentIdentifierValue (M, NR)</li>
+            </ul>
+          </li>
+
+          <li>3.2   agentName (O, R)</li>
+          <li>3.3   agentType (O, NR)</li>
+                    <li>3.4 agentNote (O, R)</li>
+                    <li>3.5 agentExtension (O, R)</li>
+                    <li>3.6 linkingEventIdentifier (O, R)
+                    <ul>
+                            <li>3.6.1 linkingEventIdentifierType (M, NR)</li>
+
+                            <li>3.6.2 linkingEventIdentifierValue (M, NR)</li>
+            </ul>
+          </li>
+                    <li>3.7 linkingRightsStatementIdentifier (O, R)
+                    <ul>
+                                <li>3.7.1 linkingRightsStatementIdentifierType (M, NR)</li>
+                                <li>3.7.2 linkingRightsStatementIdentifierValue (M, NR)</li>
+                </ul>
+
+                </li>               
+        </ul>
+
+<h2 id="4-rights">4. Rights</h2>
+<ul>
+          <li>4.1   rightsStatement (O, R)
+            <ul>
+              <li>4.1.1 rightsStatementIdentifier (M, NR)
+                <ul>
+                  <li>4.1.1.1   rightsStatementIdentifierType (M, NR)</li>
+
+                  <li>4.1.1.2   rightsStatementIdentifierValue (M, NR)</li>
+
+                </ul>
+              </li>
+              <li>4.1.2 rightsBasis (M, NR)</li>
+              <li>4.1.3 copyrightInformation (O, NR)
+                <ul>
+                  <li>4.1.3.1   copyrightStatus (M, NR)</li>
+
+                  <li>4.1.3.2   copyrightJurisdiction (M, NR)</li>
+                  <li>4.1.3.3   copyrightStatusDeterminationDate (O, NR)</li>
+
+                  <li>4.1.3.4   copyrightNote (O, R)</li>
+                  <li>4.1.3.5 copyrightDocumentationIdentifier (O, R)
+                    <ul>
+                      <li>4.1.3.5.1 copyrightDocumentationIdentifierType (M,NR)</li>
+                      <li>4.1.3.5.2 copyrightDocumentationIdentifierValue (M,NR)</li>
+                      <li>4.1.3.5.3 copyrightDocumentationRole (O,NR)</li>
+                    </ul>
+                  <li>4.1.3.6 copyrightApplicableDates (O, NR)</li>
+                      <ul>
+                      <li>4.1.3.6.1 startDate (O, NR)</li>
+                      <li>4.1.3.6.2 endDate (O, NR)</li>
+                    </ul>
+                    </ul>
+                  <li>4.1.4 licenseInformation (O, NR)
+                <ul>
+                  <li>4.1.4.1   licenseDocumentationIdentifier (O, R)
+                    <ul>
+                      <li>4.1.4.1.1 licenseDocumentationIdentifierType (M, NR)</li>
+                      <li>4.1.4.1.2 licenseDocumentationIdentifierValue (M, NR)</li>
+                      <li>4.1.4.1.3 licenseDocumentationRole (O,NR)</li>
+                    </ul> 
+
+                  <li>4.1.4.2   licenseTerms (O, NR)</li>
+                  <li>4.1.4.3   licenseNote (O, R)</li>
+                  <li>4.1.4.4 licenseApplicableDates (O, NR)
+                    <ul>
+                      <li>4.1.4.4.1 startDate (O, NR)</li>
+                      <li>4.1.4.4.2 endDate (O, NR)</li>
+                    </ul>
+                    </li>
+                  </ul>
+              </li>
+              <li>4.1.5 statuteInformation (O, R)
+                <ul>
+
+                  <li>4.1.5.1   statuteJurisdiction (M, NR)</li>
+                  <li>4.1.5.2   statuteCitation (M, NR)</li>
+
+                  <li>4.1.5.3   statuteInformationDeterminationDate (O, NR)</li>
+                  <li>4.1.5.4   statuteNote (O, R)</li>
+                  <li>4.1.5.5   statuteDocumentationIdentifier (O,R)
+                    <ul>
+                      <li>4.1.5.5.1 statuteDocumentationIdentifierType (M,NR)</li>
+                      <li>4.1.5.5.2 statuteDocumentationIdentifierValue (M,NR)</li>
+                      <li>4.1.5.5.3 statuteDocumentationRole (O,NR) </li>
+                      </ul>
+
+                    <li>4.1.5.6 statuteApplicableDates (O, NR)
+                      <ul>
+                        <li>4.1.5.6.1 startDate (O, NR)</li>
+                        <li>4.1.5.6.2 endDate (O, NR) </li> 
+                      </ul>
+                  </ul></li>
+                  <li>4.1.6 otherRightsInformation (O, NR)
+                    <ul>
+                      <li>4.1.6.1 otherRightsDocumentationIdentifier (O, R)
+                        <ul>
+                          <li>4.1.6.1.1 otherRightsDocumentationIdentifierType (M, NR)</li>
+                          <li>4.1.6.1.2 otherRightsDocumentationIdentifierValue(M, NR)
+                          </li>
+                          <li>4.1.6.1.3 otherRightsDocumentationRole (O,NR)</li>
+                        </ul>
+                      </li>
+                      <li>4.1.6.2 otherRightsBasis (M, NR)</li>
+                      <li>4.1.6.3 otherRightsApplicableDates (O, NR)
+                        <ul>
+                          <li>4.1.6.3.1 startDate (O, NR)</li>
+                          <li>4.1.6.3.2 endDate (O, NR)</li>
+                        </ul>
+                      </li>
+                      <li>4.1.6.4 otherRightsNote (O, R)</li>
+                    </ul>
+                  </li>
+                  <li>4.1.7 rightsGranted (O, R)
+                    <ul>
+
+                      <li>4.1.7.1   act (M, NR)</li>
+
+                      <li>4.1.7.2   restriction (O, R)</li>
+                      <li>4.1.7.3   termOfGrant (M, NR)
+                        <ul>
+                          <li>4.1.7.3.1 startDate (M, NR)</li>
+                          <li>4.1.7.3.2 endDate (O, NR)</li>
+                        </ul>
+
+                      </li>
+
+                      <li>4.1.7.4 termOfRestriction (O, NR)
+                        <ul>
+                          <li>4.1.7.4.1 startDate (M, NR)</li>
+                          <li>4.1.7.4.2 endDate (O, NR) </li>
+                        </ul>
+                      </li>
+                      <li>4.1.7.5   rightsGrantedNote (O, R)</li>
+                    </ul>
+                  </li>
+              <li>4.1.8 linkingObjectIdentifier (O, R)
+                <ul>
+                  <li>4.1.8.1   linkingObjectIdentifierType (M, NR)</li>
+                  <li>4.1.8.2   linkingObjectIdentifierValue (M, NR)</li>
+                  <li>4.1.8.3 linkingObjectRole (O, R)</li>
+
+                </ul>
+              </li>
+              <li>4.1.9 linkingAgentIdentifier (O, R)
+                <ul>
+                  <li>4.1.9.1   linkingAgentIdentifierType (M, NR)</li>
+                  <li>4.1.9.2   linkingAgentIdentifierValue (M, NR)</li>
+                  <li>4.1.9.3   linkingAgentRole (O, NR)</li>
+                </ul>
+              </li>                         
+            </ul>
+          </li>
+          <li>4.2   rightsExtension (O, R)</li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.indexes"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
