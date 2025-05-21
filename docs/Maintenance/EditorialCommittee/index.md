@@ -4,7 +4,7 @@
 <ul>
 
 <li>Karin Bredenberg, Chair (Sydarkivera)</li>
-<li>Bertrand Caron (Biblioth&eacute;que nationale de France)</li>
+<li>Bertrand Caron (TIB Leibniz Information Centre for Science and Technology)</li>
 <li>David Cirella (Yale University Library)</li>
 <li>Honghu Fu (National Science Library CAS)</li> 
 <li>Hanne Mari K. Hindklev (Norsk Helsenett SF)</li>  
